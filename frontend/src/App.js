@@ -175,7 +175,7 @@ function Hero({count}) {
     <section style={{maxWidth:1100,margin:'0 auto',padding:'clamp(48px,8vw,88px) clamp(20px,5vw,80px) 0'}}>
       <div className="fu" style={{display:'flex',alignItems:'center',gap:16,marginBottom:28}}>
         <div style={{width:40,height:2,background:'var(--accent)'}}/>
-        <span style={{fontFamily:"'DM Mono',monospace",fontSize:11,letterSpacing:'.2em',color:'var(--muted)',textTransform:'uppercase'}}>个人技术博客 · 始于 2024</span>
+        <span style={{fontFamily:"'DM Mono',monospace",fontSize:11,letterSpacing:'.2em',color:'var(--muted)',textTransform:'uppercase'}}>个人技术博客</span>
       </div>
       <div style={{display:'grid',gridTemplateColumns:'1fr auto',gap:40,alignItems:'end'}}>
         <div>
