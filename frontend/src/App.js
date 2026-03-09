@@ -161,7 +161,7 @@ function Header({page,setPage,user,onLogout}) {
             </a>
           ))}
           {user && (
-            <button className="btn btn-ghost" style={{fontSize:13,padding:'6px 14px'}} onClick={()=>setPage({v:'admin'})}>后台 · {user.display_name}</button>
+            <button className="btn btn-ghost" style={{fontSize:13,padding:'6px 14px'}} onClick={()=>setPage({v:'admin'})}>后台 @ {user.display_name}</button>
           )}
         </nav>
       </div>
