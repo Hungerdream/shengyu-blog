@@ -53,7 +53,7 @@ const G = () => (
     .md ul,.md ol{margin:1em 0 1em 1.6em;line-height:1.8}.md li{margin:.25em 0}
     .md blockquote{border-left:3px solid var(--accent);margin:1.5em 0;padding:.75em 1.2em;background:var(--cream);color:var(--muted);font-style:italic}
     .md code{font-family:'DM Mono',monospace;font-size:.87em;background:var(--cream);padding:.15em .4em;border-radius:3px}
-    .md pre{background:var(--ink);color:#e8e4dc;padding:1.2em 1.5em;border-radius:8px;overflow-x:auto;margin:1.5em 0}
+    .md pre{background:#f0ede8;color:#2c2a28;padding:1.2em 1.5em;border-radius:8px;overflow-x:auto;margin:1.5em 0;border:1px solid var(--border)}
     .md pre code{background:none;padding:0;font-size:.84em}
     .md hr{border:none;border-top:1px solid var(--border);margin:2em 0}
     .md strong{font-weight:600}
