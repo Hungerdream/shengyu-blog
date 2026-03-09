@@ -93,12 +93,12 @@ function md(text) {
   if (!text) return '';
   return text
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/```[\w]*\n([\s\S]*?)```/g,(_,c)=>`<pre><code>${c.trim()}</code></pre>`)
     .replace(/^### (.+)$/gm,'<h3>$1</h3>')
     .replace(/^## (.+)$/gm,'<h2>$1</h2>')
     .replace(/^# (.+)$/gm,'<h1>$1</h1>')
     .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
     .replace(/\*(.+?)\*/g,'<em>$1</em>')
-    .replace(/```[\w]*\n([\s\S]*?)```/g,(_,c)=>`<pre><code>${c.trim()}</code></pre>`)
     .replace(/`([^`\n]+)`/g,'<code>$1</code>')
     .replace(/^> (.+)$/gm,'<blockquote>$1</blockquote>')
     .replace(/^---$/gm,'<hr>')
