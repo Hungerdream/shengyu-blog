@@ -92,7 +92,7 @@ sudo usermod -aG docker $USER && newgrp docker
 ### 2. 克隆仓库
 
 ```bash
-git clone https://github.com/你的用户名/shengyu-blog.git
+git clone https://github.com/Hungerdream/shengyu-blog.git
 cd shengyu-blog
 ```
 
